@@ -1,6 +1,7 @@
 # scene シーン
 シーンのjsonフォーマット
 
+```
 {
     "scene-title" : "シーンタイトル",
     "background" : "background image path",
@@ -25,3 +26,4 @@
             },
     ]
 }
+```
