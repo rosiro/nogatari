@@ -4,26 +4,37 @@
 ```
 {
     "scene-title" : "シーンタイトル",
-    "background" : "background image path",
     "scene" : [
-            {
-                "show-actor" : {
-                             "actor-name" : "nobita_1",
-                             "appear-actions" : [
-                                                          {
-                                                            "animation-type" : "fade-in",
-                                                            "animation-time" : 100,
-                                                            "animation-wait" : "true",
-                                                          }
-                             ],
-                },
-                "talk-actor" : {
-                             "actor-name" : "nobita1",
-                             "speak" : "こんにちは！"
-                             "animation-type" : "mojiokuri",
-                             "animation-time" : 30,
-                },
-            },
+        "background" : {
+            "image-path": "background.jpg",
+            "animation-type" : "fade-in",
+            "animation-time" : 100,
+            "animation-wait" : "true"
+        },
+        "music" : {
+            "music-path" : "bgm.mp3",
+            "loop" : true
+        },
+        "sound" : {
+            "sound-path" : "sound.wav",
+            "finish-wait" : true
+        },
+        "show-actor" : {
+            "actor-name" : "nobita_1",
+            "appear-actions" : [
+                {
+                    "animation-type" : "fade-in",
+                    "animation-time" : 100,
+                    "animation-wait" : "true",
+                }
+            ],
+        },
+        "talk-actor" : {
+            "actor-name" : "nobita1",
+            "speak" : "こんにちは！"
+            "animation-type" : "mojiokuri",
+            "animation-time" : 30,
+        },
     ]
 }
 ```
