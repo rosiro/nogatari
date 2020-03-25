@@ -35,6 +35,24 @@
             "animation-type" : "mojiokuri",
             "animation-time" : 30,
         },
+        "move" : {
+            "type" : "actor",
+            "name" : "nobita1",
+            "from" : {
+                "x" : 100,
+                "y" : 100,
+                "z" : 1
+            },
+            "to : {
+                "x" : 120,
+                "y" : 120",
+                "z" : 1
+            },
+            "time" : 100
+        },
+        "hide-actor" : {
+            "actor-name" : "nobita1",
+        },
     ]
 }
 ```
