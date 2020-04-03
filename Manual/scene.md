@@ -5,19 +5,25 @@
 {
     "scene-title" : "シーンタイトル",
     "scene" : [
-        "background" : {
-            "image-path": "background.jpg",
+        "show-background" : {
+            "path": "background.jpg",
             "animation-type" : "fade-in",
             "animation-time" : 100,
             "animation-wait" : "true"
         },
-        "music" : {
-            "music-path" : "bgm.mp3",
+        "play-music" : {
+            "path" : "bgm.mp3",
             "loop" : true
         },
-        "sound" : {
-            "sound-path" : "sound.wav",
+        "stop-music" : {
+            "path" : "bgm.mp3"
+        },
+        "play-sound" : {
+            "path" : "sound.wav",
             "finish-wait" : true
+        },
+        "stop-sound" : {
+            "path" : "sound.wav"
         },
         "show-actor" : {
             "actor-name" : "nobita_1",
