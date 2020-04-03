@@ -21,7 +21,7 @@
         },
         "show-actor" : {
             "actor-name" : "nobita_1",
-            "appear-actions" : [
+            "actions" : [
                 {
                     "animation-type" : "fade-in",
                     "animation-time" : 100,
@@ -52,6 +52,13 @@
         },
         "hide-actor" : {
             "actor-name" : "nobita1",
+            "actions" : [
+                {
+                    "animation-type" : "fade-in",
+                    "animation-time" : 100,
+                    "animation-wait" : "true",
+                }
+            ],
         },
     ]
 }
