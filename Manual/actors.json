@@ -14,6 +14,21 @@
                 name_last: "玉川",
                 name_last_furigana: "たまがわ"
             }
+        },
+        image: {
+            "tachie1": "path/tamagawa_nami1.png",
+            "tachie2": "path/tamagawa_nami2.png"
+        },
+        music: {
+            "default": "path/tagamawa_nami1.mp3"
+        },
+        voice: {
+            "ohayou": "path/ohayou.mp3"
+        },
+        position: {
+            X:100,
+            y:100,
+            z:1
         }
     }
     
