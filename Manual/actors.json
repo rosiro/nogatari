@@ -1,0 +1,20 @@
+{
+    "tamagawa_nami" : {
+        name : {
+            name_en: {
+                name_full: "tamagawa nami",
+                name_first: "nami",
+                name_last: "tamagawa"
+            },
+            name_ja: {
+                name_full: "玉川 波",
+                name_full_furigana: "たまがわ なみ",
+                name_first: "波",
+                name_first_furigana: "なみ",
+                name_last: "玉川",
+                name_last_furigana: "たまがわ"
+            }
+        }
+    }
+    
+}
