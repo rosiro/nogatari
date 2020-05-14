@@ -1,7 +1,7 @@
 {
     "scene1" : [
         { title : "scene1", file : "scene1.json" },
-        { title : "scene2", file : "scene1.json" },
-        { title : "scene3", file : "scene1.json" },
+        { title : "scene2", file : "scene2.json" },
+        { title : "scene3", file : "scene3.json" },
     ],
 }
