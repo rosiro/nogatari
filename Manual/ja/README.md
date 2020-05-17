@@ -30,6 +30,9 @@
 @gian{ time:1000 }->{x:100,y:100,z:100}  
 \# gianを1000msかけてx100,y100,z100に移動させる。  
 
+消す@sizuka # OR hide
+
+
 
 ## 場面変更、画像
 \#\# scene1  
@@ -49,6 +52,12 @@ ANIME:SHAKE@背景
 ANIME:FADEOUT@CHARA_MOVE_DEFAULT  # デフォルトのキャラ移動時のアニメーションを設定  
 ANIME:FADEOUT@CHARA_SPEAK_AFTER_DEFAULT  # デフォルトのキャラ会話後のアニメーションを設定  
 
+## SYSTEM
+### 変数
+$変数名 = 値  
+
+### IF
+### FOR 
 
 # publish
 出力するファイルフォーマット  
