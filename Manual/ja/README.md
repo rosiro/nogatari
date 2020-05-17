@@ -1,7 +1,7 @@
 # nogatari manual
 
-syntax 文法  
-fileformat 出力ファイル
+- syntax 文法  
+- publish 出力ファイル  
 
 # syntax
 
@@ -13,7 +13,7 @@ BGM@流行歌
 SOUND@baban  
 「のびたー！」 gaian  
 
-# output
+# publish
 出力するファイルフォーマット  
 ## ファイルが最新かどうかを確認キャッシュ
 1. settings.jsonのversionを確認
