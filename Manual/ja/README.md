@@ -11,11 +11,20 @@ compiler
 
 \#\# scene1  
 PLACE@裏山の入り口  
-BGM@流行歌  
+
+BGM@BGM2  
+BGM@path/BGM2.mp3  
+
 nobita「こんにちは」  
  sizuka 「おはようございます」  
 SOUND@baban  
+SOUND@path/baban.wav  
+
 gian「のびたー！」  
+gian@->100,100,100  
+\# gianをx100,y100,z100に移動させる。
+gian@->100,100,100:time->1000
+\# gianを1000msかけてx100,y100,z100に移動させる。
 
 # publish
 出力するファイルフォーマット  
