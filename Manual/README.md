@@ -1,4 +1,4 @@
-nogatari json設定についてまとめる
+# nogatari manual
 
 # syntax
 
