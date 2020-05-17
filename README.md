@@ -7,4 +7,4 @@ nogatari is novel game open source format and engine.
 - 最終的にはJSONまたはMessagePakになる
 - 出力されたフォーマットを各ゲームエンジンなどで表現できるようにする 
 
-[[マニュアル]]
+[マニュアル]][/Manual/ja]
