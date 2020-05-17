@@ -8,6 +8,6 @@ nogatari is novel game open source format and engine.
 - 出力されたフォーマットを各ゲームエンジンなどで表現できるようにする 
 
 ## TODO
-- 文法
-- 出力フォーマット
+- 文法  
+- 出力フォーマット  
 [マニュアル](/Manual/ja)
