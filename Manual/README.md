@@ -1,6 +1,6 @@
 nogatari json設定についてまとめる
 
-# キャッシュ、最新確認
+# ファイルが最新かどうかを確認キャッシュ
 1. settings.jsonのversionを確認
  1. directorファイル、actorsファイル、sceneファイルのファイルを確認
 2. director.jsonのversionを確認 
