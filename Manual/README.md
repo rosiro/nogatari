@@ -3,7 +3,7 @@ nogatari json設定についてまとめる
 # syntax
 
 \#\# scene1  
-入り口@裏山  
+@裏山の入り口  
 「こんにちは」 nobita  
 「おはようございます」 sizuka  
 
