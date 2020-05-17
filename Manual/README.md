@@ -2,6 +2,11 @@ nogatari json設定についてまとめる
 
 # syntax
 
+\#\# scene1
+入り口@裏山 
+「こんにちは」:nobita 
+「おはようございます」:sizuka 
+
 
 # fileformat
 ## ファイルが最新かどうかを確認キャッシュ
