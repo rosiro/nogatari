@@ -37,7 +37,10 @@ BGM@path/BGM2.mp3
 SOUND@baban  
 SOUND@path/baban.wav  
 
+## 演出
 
+ANIME:SHAKE@nobita
+ANIME:SHAKE@背景
 
 # publish
 出力するファイルフォーマット  
