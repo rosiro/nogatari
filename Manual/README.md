@@ -1,6 +1,6 @@
 nogatari json設定についてまとめる
 
-# nogatari syntax
+# syntax
 
 
 # fileformat
