@@ -21,7 +21,7 @@
 @nobita「こんにちは」  
 笑顔1@nobita「こんにちは」  
 @sizuka「おはようございます」  
-@sizuka{ time:1000 }  
+無表情@sizuka{ time:1000 }  
 笑顔2@sizuka{ time:1000 }  
 笑顔1:着物1@sizuka  
 @gian「のびたー！」  
