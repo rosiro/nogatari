@@ -10,4 +10,7 @@ nogatari is novel game open source format and engine.
 ## TODO
 - 文法  
 - 出力フォーマット  
-[マニュアル](/Manual/ja)
+- [マニュアル](/Manual/ja)
+
+## MEMO
+- キャラクターのポーズや表情の名前いちいちおぼえてられない（自動補完してほしい）
