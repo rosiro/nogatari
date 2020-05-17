@@ -9,6 +9,10 @@
 - game engine import   
 
 
+# MEMO
+- Q いちいちコンパイルが面倒だよ！
+- A 出力ファイル(JSON)を直接いじる
+
 # nogatari記法
 
 ## キャラ編
