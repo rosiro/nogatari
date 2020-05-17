@@ -1,5 +1,13 @@
 nogatari json設定についてまとめる
 
+# キャッシュ、最新確認
+1. settings.jsonのversionを確認
+ 1. directorファイル、actorsファイル、sceneファイルのファイルを確認
+2. director.jsonのversionを確認 
+3. actors.jsonのversionを確認 
+4. scene.jsonのversionを確認 
+
+
 # setings 設定
 設定ファイル
 settings.json  
