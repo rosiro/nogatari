@@ -14,6 +14,7 @@ nogatari json設定についてまとめる
 1. directorファイル、actorsファイル、sceneファイルのファイルを確認
 1. director.jsonのversionを確認 
 1. actors.jsonのversionを確認 
+1. places.jsonのversionを確認 
 1. scene.jsonのversionを確認 
 
 ## setings 設定
@@ -27,6 +28,10 @@ director.json
 ## actors
 俳優ファイル　キャラクター設定ファイル
 actors.json  
+
+## places
+場所ファイル　場所や画像
+places.json  
 
 ## scene シーン
 個々のシーン、セリフ、背景など
