@@ -15,7 +15,7 @@ BGM@流行歌
 「こんにちは」 nobita  
 「おはようございます」 sizuka  
 SOUND@baban  
-「のびたー！」 gaian  
+「のびたー！」 gian  
 
 # publish
 出力するファイルフォーマット  
