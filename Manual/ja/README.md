@@ -1,11 +1,13 @@
 # nogatari manual
 
-- syntax 文法  
+- syntax 文法（シナリオ担当者）  
   
-compiler  
-↓  
+  compiler(nogatari compiler)  
+  ↓  
   
 - publish 出力ファイル  
+- game engine import   
+
 
 # syntax
 
