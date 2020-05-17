@@ -9,6 +9,8 @@ compiler
 
 # syntax
 
+オプション@キャラ名{この状態から}->{この状態に移動}  
+
 \#\# scene1  
 PLACE@裏山の入り口  
 
@@ -18,16 +20,16 @@ BGM@path/BGM2.mp3
 @nobita「こんにちは」  
 笑顔1@nobita「こんにちは」  
 @sizuka「おはようございます」  
-@sizuka:time(1000)
+@sizuka{ time:1000 }  
 笑顔1:@sizuka  
 
 SOUND@baban  
 SOUND@path/baban.wav  
 
 @gian「のびたー！」  
-@gian->100,100,100  
+@gian->{x:100,y:100,z:100}  
 \# gianをx100,y100,z100に一瞬で移動させる。  
-@gian:time(1000)->100,100,100  
+@gian{ time:1000 }->{x:100,y:100,z:100}  
 \# gianを1000msかけてx100,y100,z100に移動させる。  
 
 
