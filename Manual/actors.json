@@ -1,5 +1,6 @@
-{
-    "tamagawa_nami" : {
+[
+    {
+        "actor": "tamagawa_nami",
         "name" : {
             "name_en": {
                 "name_full": "tamagawa nami",
@@ -31,5 +32,4 @@
             "z":1
         }
     }
-    
-}
+]
