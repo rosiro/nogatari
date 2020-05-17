@@ -18,7 +18,8 @@
 笑顔1@nobita「こんにちは」  
 @sizuka「おはようございます」  
 @sizuka{ time:1000 }  
-笑顔1:@sizuka  
+笑顔2@sizuka{ time:1000 }  
+笑顔1:着物1@sizuka  
 @gian「のびたー！」  
 @gian->{x:100,y:100,z:100}  
 \# gianをx100,y100,z100に一瞬で移動させる。  
