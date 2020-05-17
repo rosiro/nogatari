@@ -4,9 +4,11 @@ nogatari json設定についてまとめる
 
 \#\# scene1  
 @裏山の入り口  
+BGM@流行歌  
 「こんにちは」 nobita  
 「おはようございます」 sizuka  
-
+SOUND@baban  
+「のびたー！」 gaian  
 
 # fileformat
 ## ファイルが最新かどうかを確認キャッシュ
