@@ -1,5 +1,5 @@
 # nogatari
-nogatari is novel game engine
+nogatari is novel game format and engine
 
 ## nogarari（のがたり）の目標、特徴
 - 人間がセリフ、ポーズ、出現などをかんたんにかけるようにする。
