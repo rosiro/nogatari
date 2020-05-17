@@ -1,7 +1,7 @@
 {
     "title": "hogehoge",
     "path": "dir1/dir2",
-    "version": "1.001"
+    "version": "1.001",
     "actor_file": "path/actors.json",
     "director_file": "path/director.json",
     "scene_file": "path/scenes_file",
