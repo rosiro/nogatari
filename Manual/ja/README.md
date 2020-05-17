@@ -1,5 +1,8 @@
 # nogatari manual
 
+syntax 文法  
+fileformat 出力ファイル
+
 # syntax
 
 \#\# scene1  
@@ -10,7 +13,8 @@ BGM@流行歌
 SOUND@baban  
 「のびたー！」 gaian  
 
-# fileformat
+# output
+出力するファイルフォーマット  
 ## ファイルが最新かどうかを確認キャッシュ
 1. settings.jsonのversionを確認
 1. directorファイル、actorsファイル、sceneファイルのファイルを確認
