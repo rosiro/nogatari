@@ -12,10 +12,10 @@ compiler
 \#\# scene1  
 PLACE@裏山の入り口  
 BGM@流行歌  
-「こんにちは」 nobita  
-「おはようございます」 sizuka  
+nobita「こんにちは」  
+ sizuka 「おはようございます」  
 SOUND@baban  
-「のびたー！」 gian  
+gian「のびたー！」  
 
 # publish
 出力するファイルフォーマット  
