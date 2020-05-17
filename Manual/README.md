@@ -2,10 +2,10 @@ nogatari json設定についてまとめる
 
 # ファイルが最新かどうかを確認キャッシュ
 1. settings.jsonのversionを確認
- 1. directorファイル、actorsファイル、sceneファイルのファイルを確認
-2. director.jsonのversionを確認 
-3. actors.jsonのversionを確認 
-4. scene.jsonのversionを確認 
+1. directorファイル、actorsファイル、sceneファイルのファイルを確認
+1. director.jsonのversionを確認 
+1. actors.jsonのversionを確認 
+1. scene.jsonのversionを確認 
 
 
 # setings 設定
