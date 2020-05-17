@@ -9,7 +9,7 @@
 - game engine import   
 
 
-# syntax
+# nogatari記法
 
 ## キャラ編
 オプション@キャラ名{この状態から}->{この状態に移動}  
