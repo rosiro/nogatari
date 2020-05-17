@@ -39,8 +39,8 @@ SOUND@path/baban.wav
 
 ## 演出
 
-ANIME:SHAKE@nobita
-ANIME:SHAKE@背景
+ANIME:SHAKE@nobita  
+ANIME:SHAKE@背景  
 
 # publish
 出力するファイルフォーマット  
