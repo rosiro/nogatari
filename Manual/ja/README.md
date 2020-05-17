@@ -9,28 +9,32 @@ compiler
 
 # syntax
 
+## キャラ編
 オプション@キャラ名{この状態から}->{この状態に移動}  
-
-\#\# scene1  
-PLACE@裏山の入り口  
-
-BGM@BGM2  
-BGM@path/BGM2.mp3  
 
 @nobita「こんにちは」  
 笑顔1@nobita「こんにちは」  
 @sizuka「おはようございます」  
 @sizuka{ time:1000 }  
 笑顔1:@sizuka  
-
-SOUND@baban  
-SOUND@path/baban.wav  
-
 @gian「のびたー！」  
 @gian->{x:100,y:100,z:100}  
 \# gianをx100,y100,z100に一瞬で移動させる。  
 @gian{ time:1000 }->{x:100,y:100,z:100}  
 \# gianを1000msかけてx100,y100,z100に移動させる。  
+
+
+## 場面変更、画像
+\#\# scene1  
+PLACE@裏山の入り口  
+
+## 音楽、効果音
+
+BGM@BGM2  
+BGM@path/BGM2.mp3  
+SOUND@baban  
+SOUND@path/baban.wav  
+
 
 
 # publish
