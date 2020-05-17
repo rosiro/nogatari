@@ -1,7 +1,8 @@
 [
     {
         "place_id" : "urayama",
-        "name": "裏山",
+        "tag": "裏山",
+        "name": "裏山の入り口",
         "images" : {
             "default_image" : "path/image1.png",
             "pc" : "path/image1_pc.png",
