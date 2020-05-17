@@ -4,8 +4,8 @@ nogatari json設定についてまとめる
 
 \#\# scene1  
 入り口@裏山  
-「こんにちは」:nobita  
-「おはようございます」:sizuka  
+「こんにちは」 nobita  
+「おはようございます」 sizuka  
 
 
 # fileformat
