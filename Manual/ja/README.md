@@ -23,7 +23,7 @@
 @sizuka「おはようございます」  
 無表情@sizuka{ time:1000 }  
 笑顔2@sizuka{ time:1000 }  
-笑顔1:着物1@sizuka  
+笑顔1_着物1@sizuka  
 @gian「のびたー！」  
 @gian->{x:100,y:100,z:100}  
 \# gianをx100,y100,z100に一瞬で移動させる。  
