@@ -55,6 +55,10 @@ ANIME:SHAKE@背景
 ANIME:FADEOUT@CHARA_MOVE_DEFAULT  # デフォルトのキャラ移動時のアニメーションを設定  
 ANIME:FADEOUT@CHARA_SPEAK_AFTER_DEFAULT  # デフォルトのキャラ会話後のアニメーションを設定  
 
+### シーンの移動
+SCENE@MOVET{ time:10000 }->公園
+\# 10秒後公園のシーンに移動
+
 ## SYSTEM
 ### 変数
 $変数名 = 値  
