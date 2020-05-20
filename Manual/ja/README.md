@@ -56,8 +56,8 @@ ANIME:FADEOUT@CHARA_MOVE_DEFAULT  # デフォルトのキャラ移動時のア�
 ANIME:FADEOUT@CHARA_SPEAK_AFTER_DEFAULT  # デフォルトのキャラ会話後のアニメーションを設定  
 
 ### シーンの移動
-SCENE@MOVET{ time:10000 }->公園
-\# 10秒後公園のシーンに移動
+SCENE@{ time:10000 }->SCENE2
+\# 10秒後SCENE2に移動   
 
 ## SYSTEM
 ### 変数
