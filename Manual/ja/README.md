@@ -27,13 +27,20 @@
 無表情@sizuka{ time:1000 }  
 笑顔2@sizuka{ time:1000 }  
 笑顔1_着物1@sizuka  
+
 @gian「のびたー！」  
+
 @gian->{x:100,y:100,z:100}  
 \# gianをx100,y100,z100に一瞬で移動させる。  
-@gian{ time:1000 }->{x:100,y:100,z:100}  
-\# gianを1000msかけてx100,y100,z100に移動させる。  
 
-消す@sizuka # OR hide
+@gian{ time:1000 }->{x:100,y:100,z:100}  
+\# 1000ms後にgianをx100,y100,z100に移動させる。  
+
+@gian->{x:100,y:100,z:100, time:1000 }  
+\# gianをx100,y100,z100に1000msかけて移動させる。  
+
+CHARACTERHIDE@sizuka  
+\# 消える
 
 
 
