@@ -33,6 +33,11 @@ sceneの配列を上から順に実行する
                 "y": 100,
                 "z": 1
             },
+            "scale": {
+                "x": 100,
+                "y": 100,
+                "z": 1
+            },
             "actions" : [
                 {
                     "animation-type" : "fade-in",
