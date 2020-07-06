@@ -28,6 +28,11 @@ sceneの配列を上から順に実行する
         },
         "show-actor" : {
             "actor-name" : "nobita_1",
+            "position": {
+                "x": 100,
+                "y": 100,
+                "z": 1
+            },
             "actions" : [
                 {
                     "animation-type" : "fade-in",
