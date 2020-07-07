@@ -3,29 +3,41 @@
 sceneの配列を上から順に実行する
 
 ```
-{
-    "scene-title" : "シーンタイトル",
-    "scene" : [
-        "show-background" : {
+[
+    {
+       "scene-title" : "シーンタイトル"
+    },
+    {
+       "show-background" : {
             "path": "background.jpg",
             "animation-type" : "fade-in",
             "animation-time" : 100,
             "animation-wait" : "true"
-        },
+        }
+    },
+    {
         "play-music" : {
             "path" : "bgm.mp3",
             "loop" : true
-        },
+        }
+    },
+    {
         "stop-music" : {
             "path" : "bgm.mp3"
-        },
+        }
+    },
+    {
         "play-sound" : {
             "path" : "sound.wav",
             "finish-wait" : true
-        },
+        }
+    },
+    {
         "stop-sound" : {
             "path" : "sound.wav"
-        },
+        }
+    },
+    {
         "show-actor" : {
             "actor-name" : "nobita_1",
             "position": {
@@ -42,17 +54,21 @@ sceneの配列を上から順に実行する
                 {
                     "animation-type" : "fade-in",
                     "animation-time" : 100,
-                    "animation-wait" : "true",
+                    "animation-wait" : "true"
                 }
-            ],
-        },
+            ]
+        }
+    },
+    {
         "talk-actor" : {
             "actor-name" : "nobita1",
-            "speak" : "こんにちは！"
+            "speak" : "こんにちは！",
             "animation-type" : "mojiokuri",
             "animation-time" : 30,
-        },
-        "move" : {
+        }
+    },
+    {
+        "move-actor" : {
             "type" : "actor",
             "name" : "nobita1",
             "from" : {
@@ -60,23 +76,25 @@ sceneの配列を上から順に実行する
                 "y" : 100,
                 "z" : 1
             },
-            "to : {
+            "to" : {
                 "x" : 120,
-                "y" : 120",
+                "y" : 120,
                 "z" : 1
             },
             "time" : 100
         },
+    },
+    {
         "hide-actor" : {
             "actor-name" : "nobita1",
             "actions" : [
-                {
-                    "animation-type" : "fade-in",
-                    "animation-time" : 100,
-                    "animation-wait" : "true",
-                }
-            ],
+              {
+                "animation-type" : "fade-in",
+                "animation-time" : 100,
+                "animation-wait" : "true",
+              }
+            ]
         },
-    ]
-}
+    }
+]
 ```
