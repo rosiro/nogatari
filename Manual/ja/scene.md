@@ -65,6 +65,7 @@ sceneの配列を上から順に実行する
             "speak" : "こんにちは！",
             "animation-type" : "mojiokuri",
             "animation-time" : 30,
+            "talktime": 10000,
         }
     },
     {
