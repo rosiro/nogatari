@@ -66,6 +66,7 @@ sceneの配列を上から順に実行する
             "animation-type" : "mojiokuri",
             "animation-time" : 30,
             "talktime": 10000, // 0 =  click(action) clear, talktime > 0 mill second display, -x display next talk x times
+            "endflg": 1 / 0,
         }
     },
     {
