@@ -42,6 +42,8 @@
 CHARACTERHIDE@sizuka  
 \# 消える
 
+STARE(sizuka)@gian  
+gianがsizukaを見つめる
 
 
 ## 場面変更、画像
