@@ -1,7 +1,8 @@
 # nogatari manual
 
 - syntax 文法（シナリオ担当者）  
-  
+
+ 
   compiler(nogatari compiler)  
   ↓  
   
@@ -17,6 +18,13 @@
 - A そうできるようにしたい　{def：左}{x:100,y:100,z:100}　←みたいに  
 
 # nogatari記法
+## 誰が
+nobita@doraemons.jp
+
+nobitaはキャラクター名
+doraemonsは所属グループ名
+jpは所属グループ名
+
 
 ## キャラ編
 オプション@キャラ名{この状態から}->{この状態に移動}  
