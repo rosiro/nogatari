@@ -1,8 +1,16 @@
 # nogatari manual
 
+- state 状態
+ global変数的な扱い
+ 
+ - 背景画像 background-image
+ - 画面に登場するキャラクター
+ - 画面に表示されるオブジェクト
+ - 音楽
+ - 時間
+
 - syntax 文法（シナリオ担当者）  
 
- 
   compiler(nogatari compiler)  
   ↓  
   
