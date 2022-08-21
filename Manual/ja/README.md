@@ -1,5 +1,28 @@
 # nogatari manual
 
+## 流れ
+ 1. setting.txt 設定ファイル読みお込み 
+ 2. setting.txt 設定ファイルに記載されたデータの読み込み
+ 3. global.txt グローバルデータ他ファイル読み込み global変数に
+ 4. scenario.txt シナリオデータ読み込み
+ 5. global変数の現在時間から読み込むファイルを選択してファイルを開いてデータを読み込む
+ 6. 背景を表示
+ 7. キャラクターを表示
+ 8. オブジェクトを表示
+ 9. 該当シナリオファイルデータを順番に表示
+
+## setting.txt
+設定ファイル 
+~~~
+{
+  "filepath" : {
+    "basepath" : "filedirectory",
+    "global" : "global.txt",
+    "scenario" : "scenario.txt",
+  }
+}
+~~~
+
 ## state 状態
  global変数的な扱い。セーブされるデータ。ロードされるデータ。
  
