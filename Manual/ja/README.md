@@ -15,8 +15,12 @@
 設定ファイル 
 ~~~
 {
-  "filepath" : {
-    "basepath" : "filedirectory",
+  "settings" : {
+    "path" : {
+      "scenario": "directory",
+      "images": "directory",
+      "music": "directory",
+    },
     "global" : "global.txt",
     "scenario" : "scenario.txt",
   }
