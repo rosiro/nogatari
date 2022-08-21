@@ -1,6 +1,6 @@
 # nogatari manual
 
-- state 状態
+## state 状態
  global変数的な扱い
  
  - 背景画像 background-image
