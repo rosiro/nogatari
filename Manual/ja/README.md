@@ -1,15 +1,32 @@
 # nogatari manual
 
 ## state 状態
- global変数的な扱い
+ global変数的な扱い。セーブされるデータ。ロードされるデータ。
  
  - 背景画像 background-image
  - 画面に登場するキャラクター
  - 画面に表示されるオブジェクト
  - 音楽
- - 時間
+ - 現在時間
+ - シナリオデータディレクトリ
 
-- syntax 文法（シナリオ担当者）  
+## シナリオデータ
+シナリオデータファイル（複数）
+シナリオデータディレクトリにあるファイルを読み込み
+
+- シナリオ設定ファイルscenario.txt
+- 
+
+### scenario.txt
+{
+    scenarios: [
+      { "filename" : "aaa.txt", "start_time" : timestamp, "end_time" : timestamp  },
+      { "filename" : "aaa.txt", "start_time" : timestamp, "end_time" : timestamp  },
+     
+    ]
+}
+
+## syntax 文法（シナリオ担当者）  
 
   compiler(nogatari compiler)  
   ↓  
