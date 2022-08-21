@@ -21,7 +21,7 @@
       "images": "directory",
       "music": "directory",
     },
-    "global" : "global.txt",
+    "global" : "global.txt", // セーブデータ、現在の状態
     "scenario" : "scenario.txt",
   }
 }
