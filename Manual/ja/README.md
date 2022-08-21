@@ -17,6 +17,7 @@
 - シナリオ設定ファイルscenario.txt
 - 
 
+```
 ### scenario.txt
 {
     scenarios: [
@@ -25,6 +26,7 @@
      
     ]
 }
+```
 
 ## syntax 文法（シナリオ担当者）  
 
