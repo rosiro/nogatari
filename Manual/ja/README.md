@@ -21,8 +21,12 @@
       "images": "directory",
       "music": "directory",
     },
-    "global" : "global.txt", // セーブデータ、現在の状態
-    "scenario" : "scenario.txt",
+    "global": {
+      "global_file": "global.txt", // セーブデータ、現在の状態
+    },
+    "scenario": {
+      "scenario_file": "scenario.txt",
+    }
   }
 }
 ~~~
