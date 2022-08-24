@@ -41,7 +41,7 @@
  - 現在時間
  - シナリオデータディレクトリ
 
-## シナリオデータ
+## シナリオまとめデータ
 シナリオデータファイル（複数）
 シナリオデータディレクトリにあるファイルを読み込み
 
@@ -56,6 +56,31 @@
       { "filename" : "aaa.txt", "start_time" : timestamp, "end_time" : timestamp  },
      
     ]
+}
+```
+### シナリオデータ
+aaa.txt
+```
+{
+    "events" : [
+        {
+            "comment": "背景変更",
+            "background" : "background.png,
+            "time": timestamp,
+        },
+        {
+            "comment": "キャラクター表示",
+            "character": "nobita",
+            "speech": "hello hello hello world",
+            "time": timestamp,
+        },
+        {
+            "comment": "キャラクターのアニメーションステート切り替え",
+            "character": "nobita",
+            "animation_state": "walk",
+            "time": timestamp,
+        },
+    ]    
 }
 ```
 
