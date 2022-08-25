@@ -51,8 +51,6 @@
 - シナリオ設定ファイルscenario.txt
 - 
 
-```
-
 ### place.txt
 
 ```
@@ -67,6 +65,8 @@
 
 ```
 ### scenario.txt
+
+```
 {
     "scenarios": [
       { "filename" : "aaa.txt", "start_time" : timestamp, "end_time" : timestamp  },
@@ -74,6 +74,7 @@
     ]
 }
 ```
+
 ### シナリオデータ
 aaa.txt
 ```
