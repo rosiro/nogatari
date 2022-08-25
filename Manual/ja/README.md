@@ -26,7 +26,10 @@
     },
     "scenario": {
       "scenario_file": "scenario.txt",
-    }
+    },
+    "place": {
+      "place_file": "place.txt",
+    },
   }
 }
 ~~~
@@ -49,12 +52,25 @@
 - 
 
 ```
+
+### place.txt
+
+```
+{
+    "places" : [
+        {
+            "placename": "place1", // spaceの中の場所
+            "space": "room1",  // supace（空間）
+        },
+    ]
+}
+
+```
 ### scenario.txt
 {
-    scenarios: [
+    "scenarios": [
       { "filename" : "aaa.txt", "start_time" : timestamp, "end_time" : timestamp  },
       { "filename" : "aaa.txt", "start_time" : timestamp, "end_time" : timestamp  },
-     
     ]
 }
 ```
@@ -71,6 +87,7 @@ aaa.txt
         {
             "comment": "キャラクター表示",
             "character": "nobita",
+            "place": "place1",
             "speech": "hello hello hello world",
             "time": timestamp,
         },
@@ -78,6 +95,23 @@ aaa.txt
             "comment": "キャラクターのアニメーションステート切り替え",
             "character": "nobita",
             "animation_state": "walk",
+            "time": timestamp,
+        },
+        {
+            "comment": "キャラクターの非表示",
+            "character": "nobita",
+            "hide": true,
+            "time": timestamp,
+        },
+        {
+            "comment": "キャラクターの移動",
+            "character": "nobita",
+            "move": {
+                "from": "place1", // 移動元
+                "to": "place2", // 移動先
+                "duration_time": "1000", // ms
+            }
+            "hide": true,
             "time": timestamp,
         },
     ]    
