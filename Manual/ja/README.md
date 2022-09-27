@@ -100,57 +100,76 @@ character.txt
 
 ### シナリオデータ
 aaa.txt
+
+#### 最低限必要な命令 event
+
+```
+"changescene" : 背景などの変更
+"speech" : キャラクターが話す（メッセージ文字列を表示）
+"animation" : アニメーションを指示
+"move" : 移動
+"showhide" : 表示、非表示
+
 ```
 {
-    "events" : [
-        {
-            "comment": "背景変更",
-            "background" : "background.png,
-            "time": timestamp,
-        },
-        {
-            "comment": "キャラクター表示",
-            "character": "nobita",
-            "place": "place1",
-            "speech": "hello hello hello world",
-            "time": timestamp,
-        },
-        {
-            "comment": "キャラクターのアニメーションステート切り替え",
-            "character": "nobita",
-            "animation_state": "walk",
-            "time": timestamp,
-        },
-        {
-            "comment": "キャラクターの非表示",
-            "character": "nobita",
-            "hide": true,
-            "time": timestamp,
-        },
-        {
-            "comment": "キャラクターの移動 その１",
-            "character": "nobita",
-            "move": {
-                "from": "place1", // 移動元
-                "to": "place2", // 移動先
-                "duration_time": "1000", // ms
-            }
-            "hide": true,
-            "time": timestamp,
-        },
-        {
-            "comment": "キャラクターの移動 その２",
-            "character": "nobita",
-            "move": {
-                "from": "place1", // 移動元
-                "to": "place2", // 移動先
-                "duration_time": "1000", // ms
-            }
-            "animation_state": "walk",
-            "show": true,
-            "time": timestamp,
-        },
-    ]    
+    "scenario" : {
+        "id": "aaa",
+        }
+        events: [
+         {
+             "event": "changescene",
+             "comment": "背景変更",
+             "background" : "background.png,
+             "time": timestamp,
+         },
+         {
+             "event": "speech",
+             "comment": "キャラクター表示",
+             "character": "nobita",
+             "place": "place1",
+             "speech": "hello hello hello world",
+             "time": timestamp,
+         },
+         {
+             "event": "animation",
+             "comment": "キャラクターのアニメーションステート切り替え",
+             "character": "nobita",
+             "animation_state": "walk",
+             "time": timestamp,
+         },
+         {
+             "event": "showhide",
+             "comment": "キャラクターの非表示",
+             "character": "nobita",
+             "hide": true,
+             "time": timestamp,
+         },
+         {
+             "event" : "move",
+             "comment": "キャラクターの移動 その１",
+             "character": "nobita",
+             "move": {
+                 "from": "place1", // 移動元
+                 "to": "place2", // 移動先
+                 "duration_time": "1000", // ms
+             }
+             "hide": true,
+             "time": timestamp,
+         },
+         {
+             "comment": "キャラクターの移動 その２",
+             "character": "nobita",
+             "move": {
+                 "from": "place1", // 移動元
+                 "to": "place2", // 移動先
+                 "duration_time": "1000", // ms
+             }
+             "animation_state": "walk",
+             "show": true,
+             "time": timestamp,
+         },
+       ]
+    }
 }
 ```
 
