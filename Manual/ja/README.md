@@ -1,5 +1,7 @@
 # nogatari manual
 
+nogatariは文法のみ、実装はそれぞれで勝手にやる。 unityなら class character などを作るなど（だいたいjsonからクラスを生成すればよいのでは）
+
 ## 流れ
  1. setting.txt 設定ファイル読みお込み 
  2. setting.txt 設定ファイルに記載されたデータの読み込み
