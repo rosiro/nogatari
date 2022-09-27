@@ -105,7 +105,7 @@ aaa.txt
             "time": timestamp,
         },
         {
-            "comment": "キャラクターの移動",
+            "comment": "キャラクターの移動 その１",
             "character": "nobita",
             "move": {
                 "from": "place1", // 移動元
@@ -113,6 +113,18 @@ aaa.txt
                 "duration_time": "1000", // ms
             }
             "hide": true,
+            "time": timestamp,
+        },
+        {
+            "comment": "キャラクターの移動 その２",
+            "character": "nobita",
+            "move": {
+                "from": "place1", // 移動元
+                "to": "place2", // 移動先
+                "duration_time": "1000", // ms
+            }
+            "animation_state": "walk",
+            "show": true,
             "time": timestamp,
         },
     ]    
