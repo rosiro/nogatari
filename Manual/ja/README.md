@@ -59,6 +59,12 @@
         {
             "placename": "place1", // spaceの中の場所
             "space": "room1",  // supace（空間）
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "transform": "world", // "local"
         },
     ]
 }
@@ -73,6 +79,21 @@
       { "filename" : "aaa.txt", "start_time" : timestamp, "end_time" : timestamp  },
     ]
 }
+```
+
+### キャラクターデータ
+character.txt
+```
+{
+    "characters": [
+        {
+            "id" : "nobita",
+            "name : "のびた",
+            "object" : "nobita.prefab"
+        }
+    ]
+}
+
 ```
 
 ### シナリオデータ
