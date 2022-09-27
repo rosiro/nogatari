@@ -109,6 +109,7 @@ aaa.txt
 "animation" : アニメーションを指示
 "move" : 移動
 "showhide" : 表示、非表示
+```
 
 ```
 {
