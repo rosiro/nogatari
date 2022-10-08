@@ -72,7 +72,7 @@ nogatariは文法のみ、実装はそれぞれで勝手にやる。 unityなら
 }
 
 ```
-### scenario.txt
+### scenarioSets.txt
 
 ```
 {
@@ -101,7 +101,7 @@ character.txt
 ### シナリオデータ
 aaa.txt
 
-#### 最低限必要な命令 event
+#### 最低限必要な命令 Scenario
 
 ```
 "changescene" : 背景などの変更
@@ -111,66 +111,35 @@ aaa.txt
 "showhide" : 表示、非表示
 ```
 
+
 ```
 {
-    "scenario" : {
-        "id": "aaa",
-        }
-        events: [
-         {
-             "event": "changescene",
-             "comment": "背景変更",
-             "background" : "background.png,
-             "time": timestamp,
-         },
-         {
-             "event": "speech",
-             "comment": "キャラクター表示",
-             "character": "nobita",
-             "place": "place1",
-             "speech": "hello hello hello world",
-             "time": timestamp,
-         },
-         {
-             "event": "animation",
-             "comment": "キャラクターのアニメーションステート切り替え",
-             "character": "nobita",
-             "animation_state": "walk",
-             "time": timestamp,
-         },
-         {
-             "event": "showhide",
-             "comment": "キャラクターの非表示",
-             "character": "nobita",
-             "hide": true,
-             "time": timestamp,
-         },
-         {
-             "event" : "move",
-             "comment": "キャラクターの移動 その１",
-             "character": "nobita",
-             "move": {
-                 "from": "place1", // 移動元
-                 "to": "place2", // 移動先
-                 "duration_time": "1000", // ms
-             }
-             "hide": true,
-             "time": timestamp,
-         },
-         {
-             "comment": "キャラクターの移動 その２",
-             "character": "nobita",
-             "move": {
-                 "from": "place1", // 移動元
-                 "to": "place2", // 移動先
-                 "duration_time": "1000", // ms
-             }
-             "animation_state": "walk",
-             "show": true,
-             "time": timestamp,
-         },
-       ]
+  "id": "aaa",
+  "name": "scenario",
+  "sentences": [
+    {
+      "no": 0,
+      "comment": "背景変更",
+      "background": "background.png,,,,,,,,,",
+      "speech": {
+        "serifu": "hello hello hello world",
+        "character_id": "nobita",
+        "animation_state": "walk",
+        "character_name": "nobita"
+      },
+      "animation": {
+        "state": "talk"
+      },
+      "move":{
+        "character_id": "nobita",
+        "from": "place1",
+        "to": "place2",
+        "duration_time": "1000"
+      },
+      "wait": 100,
+      "time": "timestamp"
     }
+  ]
 }
 ```
 
