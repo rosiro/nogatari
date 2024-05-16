@@ -1,3 +1,5 @@
+- 2024/5/17 masterブランチの内容を整理整頓してdraft_01を作ることにした。
+
 # nogatari
 nogatari is novel game open source format and engine.
 
@@ -21,7 +23,6 @@ nogatari記法を変換後はjsonにすること。
 ## TODO
 - 文法  
 - 出力フォーマット  
-- [マニュアル](/Manual/ja)
 
 ## MEMO
 - キャラクターのポーズや表情の名前いちいちおぼえてられない（自動補完してほしい）
