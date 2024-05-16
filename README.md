@@ -10,7 +10,12 @@ nogatari is novel game open source format and engine.
 
 物語を記述するフォーマットが欲しかった（日本語だと多様すぎる）   
 
-nogatari記法を変換後はjsonにすること。 
+- nogatariは基本的にjsonデータ。 
+- nogatari記法（人が書きやすい記法 ここからjsonに出力できる）
+- ビューア（jsonを解釈して表示する）コード
+
+
+目標
 
 - 人間がセリフ、ポーズ、出現などをかんたんにかけるようにする。
 - 3D,2D,動作環境を問わず演出できるものを目指す。
