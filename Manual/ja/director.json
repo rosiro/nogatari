@@ -1,7 +1,0 @@
-{
-    "scene1" : [
-        { "title" : "scene1", "file" : "path/scene1.json" },
-        { "title" : "scene2", "file" : "path/scene2.json" },
-        { "title" : "scene3", "file" : "path/scene3.json" },
-    ],
-}
